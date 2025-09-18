@@ -57,10 +57,11 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    gap: 40px;
 }
 .nav-links li {
     margin-left: 30px;
-}
+}        
 
 .nav-links a {
     text-decoration: none;
@@ -93,7 +94,7 @@ nav {
 }
 
 /* Hero section */
-.her {
+.hero {
     padding: 150px 0 100px;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&h=1000&q=80') no-repeat center center/cover;
@@ -139,7 +140,7 @@ nav {
 }
 
 /* Buttons */
-.bhn {
+.btn {
     display: inline-block;
     padding: 12px 30px;
     border-radius: 5px;
